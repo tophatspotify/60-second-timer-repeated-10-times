@@ -1,0 +1,7 @@
+import time
+
+for i in range(1, 301):  # 300 seconds in 5 minutes
+    minutes = i // 60
+    seconds = i % 60
+    print(f"{minutes} minutes and {seconds} seconds have passed")
+    time.sleep(1)
